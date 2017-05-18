@@ -1,0 +1,2 @@
+this is my first line in exceptions
+{'id':1,'name'':'python','adhar':'2134wqrewr32'}

@@ -1,0 +1,37 @@
+INFO:root:Inofrmation message
+DEBUG:root:debug message
+WARNING:root:warn message
+ERROR:root:except message
+None
+ERROR:root:error message
+INFO:root:Program started
+INFO:root:Inofrmation message
+DEBUG:root:debug message
+WARNING:root:warn message
+ERROR:root:except message
+None
+ERROR:root:error message
+INFO:root:**********************************Program started
+INFO:root:Inofrmation message
+DEBUG:root:debug message
+WARNING:root:warn message
+ERROR:root:except message
+None
+ERROR:root:error message
+2017-05-17 07:36:14,877->INFO->**********************************Program started
+2017-05-17 07:36:14,883->INFO->Inofrmation message
+2017-05-17 07:36:14,887->DEBUG->debug message
+2017-05-17 07:36:14,891->WARNING->warn message
+2017-05-17 07:36:14,893->ERROR->except message
+None
+2017-05-17 07:36:14,899->ERROR->error message
+2017-05-17 07:46:31,324->INFO->*****Striting the client process***********
+2017-05-17 07:46:39,660->DEBUG->a=12, b=2
+2017-05-17 07:46:39,660->DEBUG->result=6.0
+2017-05-17 07:47:31,716->INFO->*****Striting the client process***********
+2017-05-17 07:47:33,922->DEBUG->a=12, b=0
+2017-05-17 07:47:33,924->ERROR->float division by zero
+Traceback (most recent call last):
+  File "prog.py", line 14, in <module>
+    res=a/b
+ZeroDivisionError: float division by zero
