@@ -1,2 +1,1 @@
-import sys
-print sys.argv
+#40000
